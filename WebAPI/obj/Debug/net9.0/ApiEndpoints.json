@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "AtualizarContato",
+    "RelativePath": "Contato/AtualizarContato",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "contato",
+        "Type": "WebAPI.Entities.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "BuscarContato",
+    "RelativePath": "Contato/BuscarContato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "BuscarPorNome",
+    "RelativePath": "Contato/BuscarPorNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "BuscarTodos",
+    "RelativePath": "Contato/BuscarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "DeletarContato",
+    "RelativePath": "Contato/DeletarContato",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ContatoController",
+    "Method": "InserirContato",
+    "RelativePath": "Contato/InserirContato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contato",
+        "Type": "WebAPI.Entities.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
